@@ -43,7 +43,7 @@ BEGIN
   StringToInt0(s, i);
 END StringToInt;
 
-PROCEDURE StringToInt0(s : ARRAY OF CHAR; VAR i : INTEGER) IS "conv_str_to_int";
+PROCEDURE StringToInt0(s : ARRAY OF CHAR; VAR i : INTEGER) IS "conv_string_to_int";
 
 (** StringToReal(s, x, d) returns in x the real number in s according to the format
 
@@ -57,7 +57,7 @@ BEGIN
   StringToReal0(s, x);
 END StringToReal;
 
-PROCEDURE StringToReal0(s: ARRAY OF CHAR; VAR x : REAL) IS "conv_str_to_real";
+PROCEDURE StringToReal0(s: ARRAY OF CHAR; VAR x : REAL) IS "conv_string_to_real";
 
 BEGIN
   SYSTEM.LOADLIB("./extConvert.so");
