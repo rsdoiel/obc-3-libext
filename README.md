@@ -15,5 +15,5 @@ The follow modules have been ported from OBNC's extended library.
 |------------|---------------------------------------|---------------|
 | extArgs    | Access argv, argc in Oberon           | [extArgs.def](https://miasap.se/obnc/obncdoc/ext/extArgs.def.html "documentation") |
 | extConvert | Convert ARRAY OF CHAR, INTEGER, REAL  | [extConvert.def](https://miasap.se/obnc/obncdoc/ext/extConvert.def.html "documentation") |
-extEnv    Access environment variables           [extEnv.def](https://miasap.se/obnc/obncdoc/ext/extEnv.def.html "documentation")
+| extEnv     | Access environment variables          | [extEnv.def](https://miasap.se/obnc/obncdoc/ext/extEnv.def.html "documentation") |
 
