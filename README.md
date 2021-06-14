@@ -1,3 +1,7 @@
+---
+title: "Obc-3 Library Extensions"
+---
+
 obc-3-libext
 ============
 
@@ -13,9 +17,9 @@ The follow modules have been ported from OBNC's extended library.
 
 | Name       | Description                           | Documentation |
 |------------|---------------------------------------|---------------|
-| extArgs.m    | Access argv, argc in Oberon           | [extArgs.def](https://miasap.se/obnc/obncdoc/ext/extArgs.def.html "documentation") |
-| extConvert.m | Convert ARRAY OF CHAR, INTEGER, REAL  | [extConvert.def](https://miasap.se/obnc/obncdoc/ext/extConvert.def.html "documentation") |
-| extEnv.m     | Access environment variables          | [extEnv.def](https://miasap.se/obnc/obncdoc/ext/extEnv.def.html "documentation") |
+| [extArgs.m](extArgs.m)    | Access argv, argc in Oberon           | [extArgs.def](https://miasap.se/obnc/obncdoc/ext/extArgs.def.html "documentation") |
+| [extConvert.m](extConvert.m) | Convert ARRAY OF CHAR, INTEGER, REAL  | [extConvert.def](https://miasap.se/obnc/obncdoc/ext/extConvert.def.html "documentation") |
+| [extEnv.m](extEnv.m)     | Access environment variables          | [extEnv.def](https://miasap.se/obnc/obncdoc/ext/extEnv.def.html "documentation") |
 
 About the file names
 --------------------

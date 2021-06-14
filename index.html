@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <title>Obc-3 Library Extensions</title>
+    <link href="/css/site.css" rel="stylesheet" />
+</head>
+<body>
+<header>
+Obc-3 Library Extensions
+</header>
+<section>
+<h1 id="obc-3-libext">
+obc-3-libext
+</h1>
+<p>
+This is a collection of Oberon-7 extension modules based on some of Karl Landström’s <a href="http://miasap.se/obnc/">OBNC</a> extended library but implemented to be compatible with Mike Spivey’s <a href="https://github.com/Spivoxity/obc-3">Obc-3</a> compiler.
+</p>
+<h2 id="modules">
+Modules
+</h2>
+<p>
+The follow modules have been ported from OBNC’s extended library.
+</p>
+<table>
+<thead>
+<tr class="header">
+<th>
+Name
+</th>
+<th>
+Description
+</th>
+<th>
+Documentation
+</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>
+<a href="extArgs.m">extArgs.m</a>
+</td>
+<td>
+Access argv, argc in Oberon
+</td>
+<td>
+<a href="https://miasap.se/obnc/obncdoc/ext/extArgs.def.html" title="documentation">extArgs.def</a>
+</td>
+</tr>
+<tr class="even">
+<td>
+<a href="extConvert.m">extConvert.m</a>
+</td>
+<td>
+Convert ARRAY OF CHAR, INTEGER, REAL
+</td>
+<td>
+<a href="https://miasap.se/obnc/obncdoc/ext/extConvert.def.html" title="documentation">extConvert.def</a>
+</td>
+</tr>
+<tr class="odd">
+<td>
+<a href="extEnv.m">extEnv.m</a>
+</td>
+<td>
+Access environment variables
+</td>
+<td>
+<a href="https://miasap.se/obnc/obncdoc/ext/extEnv.def.html" title="documentation">extEnv.def</a>
+</td>
+</tr>
+</tbody>
+</table>
+<h2 id="about-the-file-names">
+About the file names
+</h2>
+<p>
+I’ve kept the names of Karl’s modules in order for them to function as a drop in replacement for projects where I need compatibility between OBNC extended code and Obc-3 compiler.
+</p>
+<p>
+While obc-3 supports several file extensions for Oberon files I’ve found it easiest to adopt Mike Spivey’s convention of using <code>.m</code>. When not using obc-3 in a project I prefer the <code>.Mod</code> which is traditional in the Oberon System’s community. This also makes it clear that they are not the same modules as I wrote for use with OBNC.
+</p>
+</section>
+<nav>
+<ul>
+<li>
+<a href="/">Home</a>
+</li>
+<li>
+<a href="./">README</a>
+</li>
+<li>
+<a href="license.html">LICENSE</a> <!-- + [INSTALL](install.html) -->
+</li>
+<li>
+<a href="http://miasap.se/obnc/">OBNC</a>
+</li>
+<li>
+<a href="https://github.com/Spivoxity/obc-3">Obc-3</a>
+</li>
+<li>
+<a href="https://github.com/rsdoiel/obc-3-libext">Github</a>
+</li>
+</ul>
+</nav>
+<footer>
+copyright (c) 2021 all rights reserved.
+Released under the BSD 3-Clause license
+See: http://opensource.org/licenses/BSD-3-Clause
+</footer>
+</body>
+</html>

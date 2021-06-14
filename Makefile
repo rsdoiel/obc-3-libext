@@ -33,4 +33,7 @@ clean: .FORCE
 
 full_test: clean test
 
+website: README.md page.tmpl
+	./mk_website.py
+
 .FORCE:
