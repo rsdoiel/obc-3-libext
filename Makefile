@@ -28,6 +28,7 @@ test: $(TEST_PROG)
 
 clean: .FORCE
 	@for FNAME in $(shell ls -1 *.k); do rm $$FNAME; done
+	@for FNAME in $(shell ls -1 *.so); do rm $$FNAME; done
 	@for FNAME in $(TEST_PROG); do if [ -f $$FNAME ]; then rm $$FNAME; fi; done
 
 full_test: clean test
