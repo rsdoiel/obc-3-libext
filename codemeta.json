@@ -1,0 +1,29 @@
+{
+    "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+    "@type": "SoftwareSourceCode",
+    "description": "Extension Library modules implemented for use with Mike Spivey's Obc-3 compiler.",
+    "name": "obc-3-libext",
+    "codeRepository": "https://github.com/rsdoiel/obc-3-libext",
+    "issueTracker": "https://github.com/rsdoiel/obc-3-libext/issues",
+    "license": "https://rsdoiel.github.io/obc-3-libext/license.html",
+    "version": "0.0.0",
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Robert",
+            "familyName": "Doiel",
+            "email": "rsdoiel@gmail.com",
+            "@id": "https://orcid.org/0000-0003-0900-6903"
+        }
+    ],
+    "developmentStatus": "WIP",
+    "keywords": [
+        "Oberon-7",
+        "modules",
+        "obc-3"
+    ],
+    "maintainer": "https://orcid.org/0000-0003-0900-6903",
+    "programmingLanguage": [
+        "Oberon-7"
+    ]
+}
