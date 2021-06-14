@@ -39,6 +39,9 @@ save:
 	git commit -am "Quick Save"
 	git push origin $(BRANCH)
 
+status:
+	git status
+
 website: README.md page.tmpl
 	./mk_website.py
 
