@@ -33,6 +33,7 @@ test: $(TEST_PROG)
 	./converttest
 
 clean: .FORCE
+	@for FNAME in $(shell ls -1 *.bak); do rm $$FNAME; done
 	@for FNAME in $(shell ls -1 *.k); do rm $$FNAME; done
 	@for FNAME in $(shell ls -1 *.so); do rm $$FNAME; done
 	@for FNAME in $(TEST_PROG); do if [ -f $$FNAME ]; then rm $$FNAME; fi; done
