@@ -1,1 +1,3 @@
 *.Mod linguist-language=Oberon
+*.m linguist-language=Oberon
+*.obn linguist-language=Oberon
