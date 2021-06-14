@@ -7,6 +7,10 @@ TEST_PROG = argstest envtest converttest
 
 SHARED_LIBS = extConvert.so
 
+MSG = Quick Save
+ifneq (msg,)
+  MSG = $(msg)
+endif
 
 build: $(SHARED_LIBS) $(TEST_PROG) test
 
@@ -36,7 +40,7 @@ clean: .FORCE
 full_test: clean test
 
 save:
-	git commit -am "Quick Save"
+	git commit -am "$(MSG)"
 	git push origin $(BRANCH)
 
 status:
