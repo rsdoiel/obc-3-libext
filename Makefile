@@ -8,8 +8,8 @@ TEST_PROG = argstest envtest converttest
 SHARED_LIBS = extConvert.so
 
 MSG = Quick Save
-ifneq (msg,)
-  MSG = $(msg)
+ifneq ($(msg),)
+MSG = $(msg)
 endif
 
 build: $(SHARED_LIBS) $(TEST_PROG) test
