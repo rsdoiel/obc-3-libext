@@ -1,4 +1,6 @@
 
+BRANCH = $(shell git branch | grep '* ' | cut -d\  -f 2)
+
 OS = $(shell uname)
 
 TEST_PROG = argstest envtest converttest
@@ -33,7 +35,16 @@ clean: .FORCE
 
 full_test: clean test
 
+save:
+	git commit -am "Quick Save"
+	git push origin $(BRANCH)
+
 website: README.md page.tmpl
 	./mk_website.py
+
+publish: 
+	./mk_website.py
+	./publish.bash
+
 
 .FORCE:
